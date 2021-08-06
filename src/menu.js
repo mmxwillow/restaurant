@@ -1,7 +1,8 @@
 function printMenu(){
     let content = document.getElementById("content");
     let main = document.createElement('div');
-    main.id = "main_menu";
+    main.id = "main";
+    main.className = "menu";
 
     let menuItems = [
         ["Pizza"],

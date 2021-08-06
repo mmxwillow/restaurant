@@ -6,7 +6,8 @@ function printHomepageContent(){
     
     let content = document.getElementById('content');
     let main = document.createElement('div');
-    main.id="main_homepage";
+    main.id="main";
+    main.className = "homepage";
     
     for(let i=0; i<3; i++){
         let column = document.createElement('div');

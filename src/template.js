@@ -1,12 +1,12 @@
 function printHeader() {
     let content = document.getElementById('content');
     let header = document.createElement('header');
-    let home = document.createElement('a');
-    let menu = document.createElement('a');
-    let contact = document.createElement('a');
-    home.href = "#";
-    menu.href = "#";
-    contact.href = "#";
+    let home = document.createElement('button');
+    let menu = document.createElement('button');
+    let contact = document.createElement('button');
+    home.id = "home";
+    menu.id = "menu";
+    contact.id = "contact";
     home.innerHTML = "Home";
     menu.innerHTML = "Menu";
     contact.innerHTML = "Contact";
