@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    background-size: cover;
+    background-image: url(https://images.wallpaperscraft.com/image/salad_nuts_berries_114193_3840x2400.jpg);
+}
+header a{
+    display:flex;
+    font-size:30px;
+    margin:1em;
+    padding:5px 8px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: Ubuntu;
+}
+header a:hover{
+    background-color:rgba(255, 255, 240, 0.13);
+}
+header {
+    display:flex;
+    height:12%;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    background-color:black;
+}
+#main_homepage{
+    display:grid;
+    height:88%;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap:0 5em;
+    padding-left:8em;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.7);
+    color:white;
+}
+.column{
+    height:30em;
+    margin-top:5em;
+    border-left: 1px white solid;
+}
+.header_homepage{
+    font-family: Ubuntu;
+    font-size:30px;
+    margin:1em;
+}
+.columncontent{
+    font-size:20px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+
+#main_menu{
+    display:grid;
+    height:88%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:4em 10em;  
+    padding:8em 10em; 
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.7);
+    color:white;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    font-family: Ubuntu;
+    font-size:30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.itemname, .price{
+    display:inherit;
+}
+.description{
+    font-size:20px;
+    margin-top:20px;
+    font-family: Open Sans;
+    font-weight: bold;
+}

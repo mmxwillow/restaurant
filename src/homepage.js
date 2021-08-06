@@ -6,7 +6,7 @@ function printHomepageContent(){
     
     let content = document.getElementById('content');
     let main = document.createElement('div');
-    main.id="main";
+    main.id="main_homepage";
     
     for(let i=0; i<3; i++){
         let column = document.createElement('div');
@@ -15,7 +15,7 @@ function printHomepageContent(){
     
         column.id = data[0][i];
         column.className = "column";
-        columnheader.className="header";
+        columnheader.className="header_homepage";
         columncontent.className="columncontent";
     
         columnheader.innerHTML = data[0][i];
