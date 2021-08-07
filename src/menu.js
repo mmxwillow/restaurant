@@ -1,18 +1,23 @@
-function printMenu(){
+function printMenu() {
     let content = document.getElementById("content");
     let main = document.createElement('div');
     main.id = "main";
     main.className = "menu";
 
     let menuItems = [
-        ["Pizza"],
-        ["12$"],
-        ["ingredients"]
+        ["Chicken Bulgogi", "Spicy Cauliflower", "Chilli Tofu", "Scones", "Mango Chutney","Hommos"],
+        ["12$", "13$", "18$", "5$", "4$","9$"],
+        ["onion, garlic, sesame oil, cayenne, chicken breast, soy sauce",
+            "cauliflowerettes, diced pepper, onion, hot sauce",
+            "tofu cubes, pepper, onions, chilli, garlic gravy",
+            "clotted cream, lemon curd, strawberry jam",
+            "sweet and sour chutney with spices",
+        "chickpea puree, sesame paste, lemon"]
     ];
 
     console.log(menuItems);
 
-    for(let i=0; i<1;i++){
+    for (let i = 0; i < 6; i++) {
         let item = document.createElement('div');
         let header = document.createElement('div');
         let itemname = document.createElement('div');
@@ -39,4 +44,4 @@ function printMenu(){
     content.appendChild(main);
 }
 
-export {printMenu};
+export { printMenu };

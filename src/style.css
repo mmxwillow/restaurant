@@ -59,7 +59,7 @@ header {
     display:grid;
     height:88%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:4em 10em;  
+    grid-gap:4em 6em;  
     padding:8em 10em; 
     box-sizing: border-box;
     background-color:rgba(0, 0, 0, 0.7);
