@@ -5,8 +5,8 @@ import { printMenu } from './menu.js';
 import {printContact} from './contact.js';
 
 printHeader();
-//printHomepageContent();
-printMenu();
+printHomepageContent();
+
 let home = document.getElementById("home");
 let menu = document.getElementById("menu");
 let contact = document.getElementById("contact");
