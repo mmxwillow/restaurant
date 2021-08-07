@@ -15,8 +15,6 @@ function printMenu() {
         "chickpea puree, sesame paste, lemon"]
     ];
 
-    console.log(menuItems);
-
     for (let i = 0; i < 6; i++) {
         let item = document.createElement('div');
         let header = document.createElement('div');
